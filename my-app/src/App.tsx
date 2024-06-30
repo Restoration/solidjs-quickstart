@@ -3,6 +3,7 @@ import type { Component } from 'solid-js';
 import logo from './logo.svg';
 import styles from './App.module.css';
 import { Counter } from './Counter';
+import { EffectCounter } from './EffectCounter';
 
 const App: Component = () => {
   return (
@@ -21,6 +22,7 @@ const App: Component = () => {
           Learn Solid
         </a>
         <Counter />
+        <EffectCounter />
       </header>
     </div>
   );
