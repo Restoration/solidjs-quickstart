@@ -4,6 +4,7 @@ import logo from './logo.svg';
 import styles from './App.module.css';
 import { Counter } from './Counter';
 import { EffectCounter } from './EffectCounter';
+import { Prime } from './Prime';
 
 const App: Component = () => {
   return (
@@ -23,6 +24,7 @@ const App: Component = () => {
         </a>
         <Counter />
         <EffectCounter />
+        <Prime />
       </header>
     </div>
   );
